@@ -73,9 +73,12 @@ def summarize_dialogue(dialogue: str)-> str :
 
 #api endpoints
 
-@app.get("/",response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-  return templates.TemplateResponse("index.html",{"request":request})
+    return templates.TemplateResponse(
+        request=request,
+        name="index.html"
+    )
 
 
 
