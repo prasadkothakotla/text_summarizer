@@ -5,7 +5,7 @@ An AI-powered **Text Summarization** web application built using **FastAPI**, **
 ---
 
 ## 📸 Application Screenshot
-![Text Summarizer](images/homepage.png)
+![Text Summarizer](images/Homepage.png)
 ---
 
 ## 🚀 Features
